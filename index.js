@@ -27,7 +27,7 @@ function displayCurrentTemp(loc, current) {
      if (current != null) {
           let newDate = new Date();
           let cartoona = `<div class="card w-33  my-3">
-            <div class="card-header d-flex justify-content-between bg-light-subtle pt-3 h5">
+            <div class="card-header d-flex justify-content-between  pt-3 h5">
               <h5>${days[newDate.getDay()]}</h5>
               <h5>${newDate.getDate() + " " + months[newDate.getMonth()]}</h5>
             </div>
